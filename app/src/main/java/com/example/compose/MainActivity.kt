@@ -37,6 +37,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.example.compose.screen.GreetingMailPage
+import com.example.compose.screen.GreetingQuadrant
+import com.example.compose.screen.GreetingTaskPage
 import com.example.compose.ui.theme.ComposeDemoTheme
 
 class MainActivity : ComponentActivity() {
@@ -46,7 +49,11 @@ class MainActivity : ComponentActivity() {
             ComposeDemoTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    SimpleWidgetColumn()
+//                    SimpleWidgetColumn()
+//                    GreetingArticlePage()
+//                    GreetingTaskPage()
+//                    GreetingQuadrant()
+                    GreetingMailPage()
                 }
             }
         }
