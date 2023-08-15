@@ -37,9 +37,15 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.example.compose.screen.GreetingClickablePage
+import com.example.compose.screen.GreetingDragXYPage
+import com.example.compose.screen.GreetingDraggablePage
+import com.example.compose.screen.GreetingIconPage
+import com.example.compose.screen.GreetingInputPage
 import com.example.compose.screen.GreetingMailPage
 import com.example.compose.screen.GreetingQuadrant
 import com.example.compose.screen.GreetingTaskPage
+import com.example.compose.screen.GreetingVerticalScrollPage
 import com.example.compose.ui.theme.ComposeDemoTheme
 
 class MainActivity : ComponentActivity() {
@@ -53,7 +59,13 @@ class MainActivity : ComponentActivity() {
 //                    GreetingArticlePage()
 //                    GreetingTaskPage()
 //                    GreetingQuadrant()
-                    GreetingMailPage()
+//                    GreetingMailPage()
+//                    GreetingIconPage()
+//                    GreetingInputPage()
+//                    GreetingClickablePage()
+//                    GreetingVerticalScrollPage()
+//                    GreetingDraggablePage()
+                    GreetingDragXYPage()
                 }
             }
         }
